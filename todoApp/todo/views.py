@@ -24,5 +24,5 @@ class IndexView(View):
         todo = Todo(memo=memo)
         todo.save()
         return redirect('/')
-            # リダイレクト → べつのぺーじ
+            # リダイレクト → 別のページに転送する
         
